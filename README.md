@@ -30,6 +30,8 @@ Pour analyser les émotions et les sentiments des tweets dans un fichier CSV, ex
 python emotion_scanner.py data/Tweets.csv data/output_tweets.csv
 
 python emotion_classification_by_gpt.py data/Tweets.csv data/output_tweets_by_gpt.csv
+
+python emotion_classification_by_nl_model.py data/tweets_data_for_training.csv data/Tweets.csv data/output_tweets_by_custom_model.csv
 ```
 
 ## Structure du projet
